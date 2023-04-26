@@ -13,6 +13,9 @@
 // ->          1 0 0
 // we use this as new b
 // so we keep looping or repeat the process until there is no more b or no more carry
+//
+//
+// Time: O(1) because each integer contain 32 bit | Space: O(1)
 const getSum = (a: number, b: number) => {
   let carry
   while (b !== 0) {
