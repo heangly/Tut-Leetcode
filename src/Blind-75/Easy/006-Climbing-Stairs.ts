@@ -1,6 +1,6 @@
 /**
  * We know that we can only climb either 1 step or 2 step at a time
- * if n = 4, how many ways we can climb to reach 3?
+ * if n = 4, how many ways we can climb to reach 4 / reach the top?
  * 1, 1, 1, 1
  * 1, 1, 2
  * 1, 2, 1
@@ -9,8 +9,7 @@
  *
  * 5 ways
  *
- * so instead of thinking bottom up, which is usually harder in dynamic programming
- * we can simply use top down approach in dynamic programming
+ * so instead of thinking bottom up, we can use top down approach
  * top down approach mean we start from the top, or from result, and work our way back to the original state or the beginning
  *
  * e.g. n = 4
